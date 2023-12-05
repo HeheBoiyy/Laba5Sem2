@@ -66,6 +66,7 @@
             button1.TabIndex = 2;
             button1.Text = "Отправить всех на вакцинацию";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -85,6 +86,7 @@
             button3.TabIndex = 4;
             button3.Text = "Отправить на вторичную вакцинацию";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // listBox2
             // 
@@ -112,6 +114,7 @@
             button4.TabIndex = 7;
             button4.Text = "Провести вакцинацию";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // listBox3
             // 

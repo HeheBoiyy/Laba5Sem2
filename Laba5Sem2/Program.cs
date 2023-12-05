@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace Laba5Sem2
 {
     internal static class Program
@@ -10,6 +12,15 @@ namespace Laba5Sem2
         {
             ApplicationConfiguration.Initialize();
             Application.Run(new Вакцинация());
+        }
+    }
+    public class Voids
+    {
+        public static void BindData(ListBox list,List<PacientClass> pacient)
+        {
+            list.DataSource = null;
+            list.DataSource = pacient;
+            list.DisplayMember = "FullNameVacitation";
         }
     }
 }
